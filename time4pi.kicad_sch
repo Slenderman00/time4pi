@@ -2692,15 +2692,15 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.778 0)
+			(property "Reference" "U1"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "ECOC 7050"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2745,14 +2745,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "ECOC 7050"
-					(at 0.254 -0.254 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -2815,16 +2807,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U2"
+				(at 2.032 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "HMC361S8G/361S8GE"
+				(at 2.032 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2868,14 +2860,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "HMC361S8G/361S8GE"
-					(at 0.762 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin input line
@@ -3488,8 +3472,8 @@
 	)
 	(text_box "Calibration jumper"
 		(exclude_from_sim no)
-		(at 95.25 16.51 0)
-		(size 34.29 20.32)
+		(at 92.71 16.51 0)
+		(size 40.64 20.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -5602,8 +5586,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 64.262 19.05 0)
+		(property "Value" "HMC361S8G/361S8GE"
+			(at 65.532 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +5912,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ECOC 7050"
 			(at 36.83 26.67 0)
 			(effects
 				(font
